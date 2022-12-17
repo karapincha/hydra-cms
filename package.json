@@ -1,0 +1,31 @@
+{
+  "name": "hydra-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.5.4",
+    "@strapi/plugin-users-permissions": "4.5.4",
+    "@strapi/strapi": "4.5.4",
+    "better-sqlite3": "7.4.6",
+    "strapi-plugin-vercel-deploy": "^1.4.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "182d8d68-9451-4937-9141-f3c1fb1370c6"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
